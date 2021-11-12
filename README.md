@@ -101,18 +101,7 @@ There are two ways of customizing your website. You can either:
     below (about from line 35 to line 51):
 
     ```jekyll
-    {% comment %} <------------ remove from this line
-    8< ============= For a workshop delete from here =============
-    For a workshop please delete the following block until the next dashed-line
-    {% endcomment %}
 
-    <div class="alert alert-danger">
-      ....
-    </div>
-
-    {% comment %}
-     8< ============================= until here ==================
-    {% endcomment %} <--------- until this line
     ```
 
 4.  Edit `_config.yml` to customize certain site-wide variables, such as: `carpentry` (to tell your
