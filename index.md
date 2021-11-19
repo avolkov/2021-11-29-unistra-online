@@ -175,8 +175,12 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    <p>
+    We will provide 19 laptops to the participants, with the software already installed, so that we won't waste time.</p>
+    <p> The participants will be invited to meet after the workshop during an install party session, Friday 3th of December. They will bring their laptop and the helpers will help them to install the software they tried during the Data carpentry workshop.</p>
+    <p>
+
+Please tell me if they need to install other software for the participants before Wednesday, 24th of November.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
