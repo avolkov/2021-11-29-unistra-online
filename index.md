@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Strasbourg"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "74A ROUTE DU RHIN 67400 ILLKIRCH CEDEX  FRANCE"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "74A ROUTE DU RHIN 67400 ILLKIRCH CEDEX FRANCE"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "Fr"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -137,8 +137,9 @@ address.
 <p id="where">
    <strong>Where:</strong>
    {{page.address}}
-   <p><a href="https://bu.unistra.fr/opac/library/Biblioth%C3%A8que%20de%20l'IUT%20Robert%20Schuman%20et%20de%20pharmacie/BUSRS">Library website</a>. Participants and helpers will work together in the same room at the Library of the Institute of Technology IUT Robert Schuman. </p>
-
+   <p>Participants and helpers will work together at the <a href="http://mob.u-strasbg.fr/geoloc/index.html?permalinkId=164">Library of the Institute of Technology IUT Robert Schuman</a>.</p>
+   <p>The Library will be open from 9am to 7pm. More information on the
+   <a href="https://bu.unistra.fr/opac/library/Biblioth%C3%A8que%20de%20l'IUT%20Robert%20Schuman%20et%20de%20pharmacie/BUSRS">Library website</a>.</p>
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
@@ -164,6 +165,7 @@ This block displays the date and links to Google Calendar.
   <strong>When:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
+  <p>9am - 5pm</p>
 </p>
 {% endif %}
 
@@ -175,17 +177,14 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
+    <p>A laptop will be provided to each learner, with software already installed.</p>
     <p>
-    We will provide 19 laptops to the participants, with the software already installed, so that we won't waste time.</p>
-    <p> The participants will be invited to meet after the workshop during an install party session, Friday 3th of December. They will bring their laptop and the helpers will help them to install the software they tried during the Data carpentry workshop.</p>
-    <p>
-
-Please tell me if they need to install other software for the participants before Wednesday, 24th of November.
+    An install party session will be proposed on Friday, 3rd of December afternoon at the Lab numérique (<a href="http://mob.u-strasbg.fr/geoloc/index.html?permalinkId=27">Atrium, Esplanade, Strasbourg France</a>). You are invited to bring your own device, we will help you to install software discovered during the workshop. Please register <a href="https://dun-inscriptions.u-strasbg.fr/stxWsTseuDlsY">here</a> if you are interested.
+    </p>
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
