@@ -137,7 +137,7 @@ address.
 <p id="where">
    <strong>Where:</strong>
    {{page.address}}
-   <p><a href="https://bu.unistra.fr/opac/library/Biblioth%C3%A8que%20de%20l'IUT%20Robert%20Schuman%20et%20de%20pharmacie/BUSRS">Library website</a>
+   <p><a href="https://bu.unistra.fr/opac/library/Biblioth%C3%A8que%20de%20l'IUT%20Robert%20Schuman%20et%20de%20pharmacie/BUSRS">Library website</a>. Participants and helpers will work together in the same room at the Library of the Institute of Technology IUT Robert Schuman. </p>
 
 </p>
 {% elsif online == "true_public" %}
