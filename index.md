@@ -177,9 +177,12 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    <p>A laptop will be provided to each learner, with software already installed.</p>
-    <p>
-    An install party session will be proposed on Friday, 3rd of December afternoon at the Lab numérique (<a href="http://mob.u-strasbg.fr/geoloc/index.html?permalinkId=27">Atrium, Esplanade, Strasbourg France</a>). You are invited to bring your own device, we will help you to install software discovered during the workshop. Please register <a href="https://dun-inscriptions.u-strasbg.fr/stxWsTseuDlsY">here</a> if you are interested.
+
+    <p>A laptop with all of the required software will be provided for each learner for the duration of the workshop.</p>
+
+    <p>If you are interested in installing the software on your own computer, there will be an install party starting at 1pm on Friday, 3rd of December at the Lab numérique (<a href="http://mob.u-strasbg.fr/geoloc/index.html?permalinkId=27">Atrium, Esplanade, Strasbourg France</a>).</p>
+
+    <p>To register for the install party, fill out <a href="https://dun-inscriptions.u-strasbg.fr/stxWsTseuDlsY">a form for Make & Code Lounge </a>.
     </p>
   {% else %}
     Participants must have access to a computer with a
